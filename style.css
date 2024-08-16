@@ -19,8 +19,8 @@ header {
 }
 
 .nav-button {
-    background-color: #674188; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
+    background-color: #674188; 
+    color: #fff; 
     border: none;
     margin-left: 30px;
     padding: 10px;
@@ -91,4 +91,12 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+form {
+    font-family: Roboto, sans-serif;
+
+}
+
+form label {
+    color: #674188;
 }
