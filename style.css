@@ -18,6 +18,17 @@ header {
     text-align: center;
 }
 
+.nav-button {
+    background-color: #674188; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    margin-left: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
 #sobre {
     display: flex;
     justify-content: flex-end;
@@ -48,6 +59,7 @@ section h2 {
 nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: Montserrat, sans-serif;
     background-color: #C8A1E0;
     padding: 10px 0;
@@ -74,7 +86,7 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: #E2BFD9;
     color: #fff;
     position: fixed;
     width: 100%;
