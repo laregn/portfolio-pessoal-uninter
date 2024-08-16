@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7EFE5;
+    color: #333;
+}
+
+header {
+    font-family: Montserrat, sans-serif;
+    background-color: #674188;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#sobre {
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.foto-sobre {
+    width: 30%;
+    height: 50%;
+    border-radius: 10%;
+    margin-right: 20px;
+    object-fit: cover;
+
+}
+
+.styled-hr {
+    background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgb(170, 140, 218) 10px, #9530b4 20px),
+        linear-gradient(to bottom, beige, #f5f3f2);
+    color: transparent;
+    height: 5px;
+    border: 0;
+}
+
+section h2 {
+    color: #674188;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    background-color: #C8A1E0;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
